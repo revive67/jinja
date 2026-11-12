@@ -1,0 +1,7 @@
+name: dsh-probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "dsh probe ok"
